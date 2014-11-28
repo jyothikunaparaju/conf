@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context antiJARLocking="true" path="/ConfEvent">
+    <Resource name="jdbc/confDatasource" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="root" 
+              password="jyoth1"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/confevents?zeroDateTimeBehavior=convertToNull"
+              validationQuery="select 1"
+              maxActive="10" 
+              maxIdle="2"/>
+</Context>
